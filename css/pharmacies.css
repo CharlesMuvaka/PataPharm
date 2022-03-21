@@ -39,3 +39,16 @@
     background-size: contain;
     border-radius: 15px;
 }
+.pharm1{
+    width: 98%;
+    height: 100%;
+    background-color: #FB8500;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.pharm{
+    width: 98%;
+    height: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
