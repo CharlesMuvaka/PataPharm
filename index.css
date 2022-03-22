@@ -1,17 +1,56 @@
-.row{
+.row-1{
 
     position: absolute;
-    margin-top: 5cm;
+    margin-top: 8cm;
     margin-left: 15cm;
     font-size: 45px;
     font-weight: bold;
+    color: aliceblue;
 }
 
 .input{
     position: absolute;
-    margin-top: 7cm;
+    margin-top: 10cm;
     margin-left: 15cm;
     font-size: 25px;
     border-radius: 20px;
+    color: red;
 
 }
+
+.test{
+position: absolute;
+margin-top: 23cm;
+margin-left: 22cm;
+justify-content: space-around;
+
+}
+
+body{
+    background-image: url("https://synmedrx.com/wp-content/uploads/2022/01/pharmacy-audit.jpeg");
+}
+
+button{
+    height: 4vh;
+    width: 15vh;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    margin-top: px;
+
+}
+
+.test-1{
+    position: absolute;
+    margin-top: 23cm;
+    margin-left: 10cm;
+    justify-content: space-around;
+    
+    }
+
+    .test-2{
+        position: absolute;
+        margin-top: 23cm;
+        margin-left: 35cm;
+        justify-content: space-around;
+        
+        }
