@@ -1,0 +1,17 @@
+.row{
+
+    position: absolute;
+    margin-top: 5cm;
+    margin-left: 15cm;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.input{
+    position: absolute;
+    margin-top: 7cm;
+    margin-left: 15cm;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
