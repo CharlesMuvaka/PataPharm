@@ -9,10 +9,34 @@
     <link rel="stylesheet" href="css/medicine.css">
     
 </head>
+
 <body>
+<!-- navbar start -->
+<div class="container">
+  <nav class="navbar navbar-expand-sm navbar-light mt-3 main1">
+      <a class="navbar-brand"><img src="./images/logo.png" alt="logo" class="logo">PataPharm</a>
+      <input type="search" class="form-control w-25" placeholder="search for medicine">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-expanded="false" aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav ms-auto  me-5 text-start ">
+              <li><a class="nav-link px-3 text-dark" href="#">About us</a></li>
+              <li><a class="nav-link px-3  text-dark" href="#">Contacts</a></li>
+          </ul>
+      </div>
+      <span class="material-icons-outlined"><img src="./images/cart.png"></span>
+  </nav>
+</div>
+
+<!-- navbar end -->
+
+
 <div align="left" class="container">
   <h5>Close to you</h5>
 </div>
+
+
 <!-- list of medicines start -->
     <div class="row">
         <div class=" col-sm-6" id="card-separate">
@@ -237,8 +261,35 @@
           </div>
         </div>
       </div>
+<!--footer start -->
+
+<div class="container-fluid main2">
+  <div class="row text-white">
+      <div class="col-md-4 mt-5">
+          <h4>About PataPharm</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt tempore
+               eveniet at nemo eius quas et voluptas expedita fugiat? Atque beatae
+               numquam impedit, quis enim magni amet repellat asperiores dolorem esse!
+               </p>
+      </div>
+      <div class="col-md-4 mt-5">
+          <h4>Connect With Us</h4>
+          <p>0709 388 887 - PataPharm Service inquiries, complaints, orderded & not-delivered.</p>
+          <p>0709 388 888 - PataPharm Users Online Services.</p>
+          <p>0709 907 000 - PataPharm Headquarters customer care.</p>
+      </div>
+      <div class="col-md-4 mt-5">
+          <h4>Discover</h4>
+          <p>Order-Medicine <span  class="ms-4">About us</span> <span class="ms-4">contact</span> <span class="ms-4">Our Fleet</span></p>
+          <p>How we works <span  class="ms-4">Benefits</span> <span class="ms-4">FAQs</span> <span class="ms-4">Our Terms</span></p>
+          <p>Payments <span class="ms-4">Privacy</span> </p>
+      </div>
+  </div>
+</div>
+<!-- footer end -->
 
 </div>
+<!-- script  -->
     <script src="js/medicine.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
