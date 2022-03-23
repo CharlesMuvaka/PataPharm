@@ -26,8 +26,36 @@
 .container h5{
     font-weight: 500;
 }
-.container{
+.container1{
     margin-top: 30px;
     margin-bottom: 20px;
     margin-left: 10px;
+}
+nav{
+    background-color: #FFB703;
+    width: 100%;
+}
+.container-fluid{
+    background-color: #023047;
+    width: 100%;
+}
+.logo{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+}
+.shopping{
+ /* background-color: red; */
+ display: flex;
+ /* justify-content: center; */
+ align-items: center;
+}
+.shopping p{
+    /* background-color: olivedrab; */
+    /* margin-top: 15px; */
+    /* margin-right: 2cm; */
+}
+.fas{
+    width: 30px;
+    height: 30px;
 }
