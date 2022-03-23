@@ -59,3 +59,10 @@ nav{
     width: 30px;
     height: 30px;
 }
+table{
+    width: 100%;
+}
+table th{
+    border: 2px;
+    height: 50px;
+}
