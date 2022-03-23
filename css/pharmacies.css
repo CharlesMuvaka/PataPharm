@@ -1,0 +1,111 @@
+
+body{
+    background-color: beige;
+}.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.main1{
+    background-color: #FFB703;
+}
+.img1{
+    height: 400px;
+    background-image: url("/images/tip.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px grey;
+}
+.img2{
+    height: 400px;
+    background-image: url("https://pharmaceutical-journal.com/wp-content/uploads/2021/01/pharmacy-counter-patient-pharmacist-al-17.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px grey;
+}
+.img3{
+    height: 400px;
+    background-image: url("https://unsplash.com/photos/NNpo-liY5aU");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px grey;
+}
+.img4{
+    height: 400px;
+    background-image: url("/images/pills.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px grey;
+    
+}
+#carouselExampleSlidesOnly{
+    background-image: url("/images/pharmy.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px grey;
+}
+.pharm1{
+    width: 98%;
+    background-color: #FB8500;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pharm{
+    width: 98%;
+    height: 75%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.row2{
+    width: 98%;
+}
+.beige{
+    background-color: whitesmoke;
+}
+.pharm1 p{
+    font-size: 15px;
+}
+.pharm1 h4{
+    font-family: 'Lobster';
+}
+.main2{
+    background-color: #023047;
+    margin-top: 4em;
+}
+.mt-5 h4{
+    color: #FFB703;
+}
+.my-3{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+    color: #023047;
+    font-family: 'Lobster';
+}
+.para{
+    font-size: 20px;
+}
+.pharm1 a {
+    font-size: 20px;
+    background-color: #023047;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
