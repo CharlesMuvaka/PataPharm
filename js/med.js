@@ -24,7 +24,6 @@ cart1.onclick = function(){
             <td>${cartAmount}</td>
             <td>${chemist1}</td>
             <td>${total1}</td>
-            <td></td>
         </tr>
 
     `;
