@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4e03be8471.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,14 @@
             
                 <nav class="navbar navbar-expand-sm navbar-light mt-3 main1">
                     <a class="navbar-brand"><img src="./images/logo.png" alt="logo" class="logo">PataPharm</a>
-                    <input type="search" class="form-control w-25" placeholder="search for medicine">
+                    <form action="medicine.html">
+                        <div class="form-group d-flex ">
+                            <input type="search" id="form1" class="form-control" placeholder="Search for medicine" />
+                            <button type="submit" class="btn" value="click" onclick="medicineValue()">
+                              <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-expanded="false" aria-label="toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -35,29 +43,19 @@
         </div>
     </div>
     <div class="container">
-        <h3 class="my-3">Welcome to pharmacies in <span class="userLocation">Langata</span></h3>
-        <div class="row beige">
+        <h3 class="my-3">Welcome to Pharmacies in <span id="location" ></span></h3>
+        <div class="row">
             <div class="col-sm-4 my-3">
-                <div class="pharm1 text-center">
+                <div class=" text-center">
+                  
+                    <img src="./images/crosspharm.jpeg" class="pharm" alt="" height="40%">
                     <h4 class="my-2">Malibue-Pharm</h4>
-                    <img src="./images/malibu.webp" class="pharm" alt="">
-                    <p class="my-2">Located opposite <span class="userLocation"></span>police station.
+                    <p class="my-2 para">Located opposite <span class="location1" ></span> police station.
                         You can order medicine from us and get it delivered to your preffered location.
-                        . Click <a href="#">here</a> to view us.
+                        . Click <a target="blank" href="https://www.google.com/maps/dir/-1.317144,36.9000048/malibu+pharmacy+hurlingham/@-1.2861034,36.7794538,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f10bdeb77fdd3:0xdb2c75d6615d8eef!2m2!1d36.7970204!2d-1.2946269">here</a> to view us.
                     </p>    
                 </div>
             </div>
-
-            <!-- <div class="col-sm-3 my-3">
-                <div class="pharm1 text-center">
-                    <h4 class="my-2">DisChem-Pharm</h4>
-                    <img src="./images/disChem.jpeg" class="pharm" alt="">
-                    <p class="my-2">Located opposite <span class="userLocation"></span>police station.
-                        You can order medicine from us and get it delivered to your preffered location.
-                        . Click <a href="#">here</a> to view us.
-                    </p>    
-                </div>
-            </div> -->
 
             <div class="col-sm-8 my-3">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -83,77 +81,137 @@
         <div class="row justify-content-center">
             <div class="col-sm-9 text-center mb-3">
                 <h3 class="my-3">Our Values</h3>
-                <p>Lorem ipsum dolor sit amet Lorem ipsum ciatis provident quos animi, dolore enim ipsa! Aut magni ratione dolorem animi atque officiis dolore, itaque asperiores? Voluptatum dolor ea doloremque corporis? Eaque quisquam provident consequatur voluptas nam repellendus aliquam ducimus impedit a ad assumenda, dolorem exercitationem atque neque? Adipisci, eveniet itaquetur error.mus eum voluptatum totam iusto.</p>
+                <p>Here at <em>PataPharm,</em> we operate on the basis of honesty and integrity to our clients. We respect your feedback and we work as a team to ensure you get quality services.</p>
 
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row my-3">
-            <div class="col-sm-6 col-md-3 text-center text-white">
+        <div class="row my-3 ">
+            <div class="col-sm-6 col-md-3 text-center ">
                 <div class="pharm1">
-                    <h4>Malibue-Pharm</h4>
+                    
                     <img src="./images/malibu.png" class="pharm" alt="">
-                    <p>Located opposite <span class="userLocation"></span>police station</p>
+                    <h4>Malibu-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Central City Police station</p>
+                    <a target="blank" href="https://www.google.com/maps/dir/-1.317144,36.9000048/malibu+pharmacy+hurlingham/@-1.2861034,36.7794538,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f10bdeb77fdd3:0xdb2c75d6615d8eef!2m2!1d36.7970204!2d-1.2946269">View</a>
+                </div>
+                
+
+            </div>
+            <div class="col-sm-6 col-md-3 text-center ">
+                <div class="pharm1">
+                    
+                    <img src="./images/lab.jpg" class="pharm" alt="">
+                    <h4>GoodLife-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Indian Cemetery</p>
+                    <a target="blank" href="https://www.google.com/maps/dir/-1.317144,36.9000048/goodlife+pharmacy+kenya/@-1.2861042,36.8235488,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f10d0d9e80103:0x51f422cf11799a0d!2m2!1d36.8190588!2d-1.2853715">View</a>
                 </div>
 
             </div>
-            <div class="col-sm-6 col-md-3 text-center text-white">
+            <div class="col-sm-6 col-md-3 text-center ">
                 <div class="pharm1">
-                    <h4>Malibue-Pharm</h4>
-                    <img src="./images/malibu.png" class="pharm" alt="">
-                    <p>Located opposite <span class="userLocation"></span>police station</p>
+                    
+                    <img src="./images/pharm2.jpeg" class="pharm" alt="">
+                    <h4>Afia-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Count government Offices.</p>
+                    <a  href="">View</a>
                 </div>
 
             </div>
-            <div class="col-sm-6 col-md-3 text-center text-white">
+            <div class="col-sm-6 col-md-3 text-center ">
                 <div class="pharm1">
-                    <h4>Malibue-Pharm</h4>
-                    <img src="./images/malibu.png" class="pharm" alt="">
-                    <p>Located opposite <span class="userLocation"></span>police station</p>
+                    
+                    <img src="./images/pharm3.jpeg" class="pharm" alt="">
+                    <h4>KAM-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Women Camp.</p>
+                    <a target="blank" href="https://www.google.com/maps/dir//Kam+pharmacy,+IPS+Building,+Starehe/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x182f1127e780e56b:0x7a83f62b8b132d79?sa=X&ved=2ahUKEwjHov_E-tv2AhU5R_EDHU6WANIQ48ADegQIAxAK">View</a>
                 </div>
 
             </div>
-            <div class="col-sm-6 col-md-3 text-center text-white">
+        </div>
+
+        <div class="row my-3 ">
+            <div class="col-sm-6 col-md-3 text-center ">
                 <div class="pharm1">
-                    <h4>Malibue-Pharm</h4>
-                    <img src="./images/malibu.png" class="pharm" alt="">
-                    <p>Located opposite <span class="userLocation"></span>police station</p>
+                    
+                    <img src="./images/mnyama.jpeg" class="pharm" alt="">
+                    <h4>Lemuma-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>barbershop near Karibu rd</p>
+                    <a target="blank" href="https://www.google.com/maps/dir//lemuma+pharmacy/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x182f112883eab297:0x13fe7dd2774225b4?sa=X&ved=2ahUKEwiFs_zb-tv2AhUgQvEDHc8XDXIQ9Rd6BAgkEAQ">View</a>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-3 text-center ">
+                <div class="pharm1">
+                    
+                    <img src="./images/mnyama1.jpeg" class="pharm" alt="">
+                    <h4>NewLemuma-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Masjid Tawa's basement</p>
+                    <a target="blank" href="https://www.google.com/maps/dir/-1.3171479,36.8997737/new+lemuma/@-1.3090832,36.7964268,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f112883eab297:0x13fe7dd2774225b4!2m2!1d36.8268283!2d-1.2864603">View</a>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-3 text-center ">
+                <div class="pharm1">
+                    
+                    <img src="./images/mnyama2.jpeg" class="pharm" alt="">
+                    <h4>Harlton-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Level 5 Hospital</p>
+                    <a target="blank" href="https://www.google.com/maps/dir/-1.317144,36.9000048/Haltons+Pharmacy,+Pipeline,+Pipeline+Southern+bypass,+Nairobi/@-1.3185721,36.8959938,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f1bbe8d451c3f:0x319d7fb3dac5ed99!2m2!1d36.8963994!2d-1.3176493">View</a>    
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-3 text-center ">
+                <div class="pharm1">
+                    
+                    <img src="./images/pharm4.jpeg" class="pharm" alt="">
+                    <h4>KavaKava-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Big City Mall</p>
+                    <a target="blank" href="https://www.google.com/maps/dir//kava+kava+pharmacy/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x182f1129b01f8bd5:0x8d0641915ceae810?sa=X&ved=2ahUKEwiquqmV-9v2AhVOQ_EDHczAB3AQ9Rd6BAgYEAQ">View</a>
                 </div>
 
             </div>
         </div>
 
         <div class="row my-3">
-            <div class="col-sm-6 col-md-3 text-center text-white">
+            <div class="col-sm-6 col-md-3 text-center ">
                 <div class="pharm1">
-                    <h4>Malibue-Pharm</h4>
-                    <img src="./images/malibu.png" class="pharm" alt="">
-                    <p>Located opposite <span class="userLocation"></span>police station</p>
+                    
+                    <img src="./images/pharm4.jpeg" class="pharm" alt="">
+                    <h4>Transhem-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Petrol Station</p>
+                    <a target="blank" href="https://www.google.com/maps/dir//Transchem+Pharmacy,+Mumbi+House,+Ground+Floor,+P.O.+Box+8545,+Nairobi/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x182f1128d64c4e23:0x951ee16d2b47d23c?sa=X&ved=2ahUKEwjJ9MWs-9v2AhWMSvEDHe1GD98Q48ADegQIBxAI">View</a>
                 </div>
 
             </div>
-            <div class="col-sm-6 col-md-3 text-center text-white">
+            <div class="col-sm-6 col-md-3 text-center ">
                 <div class="pharm1">
-                    <h4>Malibue-Pharm</h4>
-                    <img src="./images/malibu.png" class="pharm" alt="">
-                    <p>Located opposite <span class="userLocation"></span>police station</p>
+                    
+                    <img src="./images/oppp.jpeg" class="pharm" alt="">
+                    <h4>ThornTree-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>SuperMarket</p>
+                    <a target="blank" href="https://www.google.com/maps/dir//thorntree+pharmacy/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x182f10d665ee9015:0x1ab42c17f30e037?sa=X&ved=2ahUKEwix9ZW--9v2AhXnS_EDHfafD0cQ9Rd6BAgWEAM">View</a>
                 </div>
 
             </div>
-            <div class="col-sm-6 col-md-3 text-center text-white">
+            <div class="col-sm-6 col-md-3 text-center ">
                 <div class="pharm1">
-                    <h4>Malibue-Pharm</h4>
-                    <img src="./images/malibu.png" class="pharm" alt="">
-                    <p>Located opposite <span class="userLocation"></span>police station</p>
+                   
+                    <img src="./images/pharm5.jpeg" class="pharm" alt="">
+                    <h4>Penta-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Primary School</p>
+                    <a target="blank" href="https://www.google.com/maps/dir/-1.3205504,36.9000448/penta+pharmacy/@-1.2861042,36.8265873,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f10d67bdb4d75:0x17826afb8534914f!2m2!1d36.8271961!2d-1.2868857">View</a>
                 </div>
 
             </div>
-            <div class="col-sm-6 col-md-3 text-center text-white">
+            <div class="col-sm-6 col-md-3 text-center ">
                 <div class="pharm1">
-                    <h4>Malibue-Pharm</h4>
-                    <img src="./images/malibu.png" class="pharm" alt="">
-                    <p>Located opposite <span class="userLocation"></span>police station</p>
+                    
+                    <img src="./images/pharm6.jpeg" class="pharm" alt="">
+                    <h4>Chalo-Pharm</h4>
+                    <p>Located opposite <span class="location1" ></span>Catholic Church</p>
+                    <a target="blank" href="https://www.google.com/maps/dir//Mater+Misericordiae+Hospital,+Mariakani+Rd,+Nairobi+City/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x182f110672636205:0x2ac539980caeee16?sa=X&ved=2ahUKEwjLhZnr-9v2AhX_SfEDHS1UBhIQ48ADegQIBxAN">View</a>
                 </div>
 
             </div>
@@ -193,7 +251,8 @@
 
 
     <script src="./js/jquery-3.6.0.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
     <script src="./js/popper-2.11.2.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/pharmacies.js"></script>
 </body>
 </html>

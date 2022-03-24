@@ -50,12 +50,15 @@ nav{
  /* justify-content: center; */
  align-items: center;
 }
-.shopping p{
-    /* background-color: olivedrab; */
-    /* margin-top: 15px; */
-    /* margin-right: 2cm; */
-}
+
 .fas{
     width: 30px;
     height: 30px;
+}
+table{
+    width: 100%;
+}
+table th{
+    border: 2px;
+    height: 50px;
 }
