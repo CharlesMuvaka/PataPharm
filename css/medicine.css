@@ -45,10 +45,11 @@ nav{
     border-radius: 50%;
 }
 .shopping{
- /* background-color: red; */
- display: flex;
- /* justify-content: center; */
- align-items: center;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .fas{
