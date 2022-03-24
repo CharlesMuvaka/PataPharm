@@ -96,19 +96,58 @@
                 <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header alert alert-success">
-                        <h5 class="modal-title" id="exampleModalLabel">Successful order</h5>
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> User Details</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Order Received Successfully!</p>
+                        <div class="modal-body">
+                          <form>
+                            <div class="form-group">
+                              <label for="message-text" class="col-form-label">Name</label>
+                              <input type="text" class="form-control" id="recipient-name" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="message-text" class="col-form-label">Phone Number</label>
+                              <input type="number" class="form-control" id="recipient-name" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="recipient-name" class="col-form-label">Email</label>
+                              <input type="text" class="form-control" id="recipient-name" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="message-text" class="col-form-label">Message:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#successModal" data-bs-dismiss="modal">Order Now</button>
                       </div>
                     </div>
                   </div>
                 </div>
+
+                       <!-- SuccessModal -->
+                       <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header alert alert-success">
+                              <h5 class="modal-title" id="exampleModalLabel"> Successfull</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="modal-body">
+                                <form>
+                                  <p>Hi Loiss (:</p>
+                                  <p>We have successfully recieved your order!</p>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
         </div>
       </div>
     </div>

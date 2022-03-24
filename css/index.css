@@ -2,3 +2,48 @@
 width: 100%;
 
 }
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 45px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #fac644,
+      #FFB703,
+      #f1a54d,
+      #FB8500
+    );
+    box-shadow: 0 4px 6px 0 #FFB703;
+  }
+  .form-control{
+      margin-top: 18px;
+      border-radius: 50px;
+      height: 50px;
+  }
