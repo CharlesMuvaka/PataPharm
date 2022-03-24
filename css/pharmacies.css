@@ -12,7 +12,7 @@ body{
 }
 .img1{
     height: 400px;
-    background-image: url("/images/tip.jpg");
+    background-image: url("../images/tip.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -20,7 +20,7 @@ body{
 }
 .img2{
     height: 400px;
-    background-image: url("https://pharmaceutical-journal.com/wp-content/uploads/2021/01/pharmacy-counter-patient-pharmacist-al-17.png");
+    background-image: url("../images/pharm22.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -30,7 +30,7 @@ body{
 }
 .img3{
     height: 400px;
-    background-image: url("https://unsplash.com/photos/NNpo-liY5aU");
+    background-image: url("../images/pharm1.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body{
 }
 .img4{
     height: 400px;
-    background-image: url("/images/pills.jpeg");
+    background-image: url("../images/pills.jpeg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ body{
     
 }
 #carouselExampleSlidesOnly{
-    background-image: url("/images/pharmy.jpeg");
+    background-image: url("../images/pharmy.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
