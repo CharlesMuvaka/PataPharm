@@ -68,10 +68,20 @@ table th{
     height: 5%;
     position: absolute;
     top: 0px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     margin-top: 0px;
 }
-.container1.main1{
+
+.container2.main1{
     height: 0px;
     top: 0px;
+}
+.welcome{
+    background-color: #FFB703;
+}
+.container2{
+    margin-top: 2.7cm;
+}
+#success1{
+    background-color: rgb(252, 223, 223);
 }
