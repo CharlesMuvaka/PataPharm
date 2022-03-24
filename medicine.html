@@ -63,37 +63,52 @@
                 Add to Cart
               </button>
 
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Cart Items</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <table class="table table-dark" id="myTable">
-                          <tr>
-                            <th>Medicine Name</th>
-                            <th>Medicine Price</th>
-                            <th>Pharmacy</th>
-                            <th>Total</th>
-                          </tr>
-                      </table>
-                      <div class="text-end">
-                        <h5 class="mx-3">Grand Total: Ksh<span id="grandTotal"></span></h5>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cart Items</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <table class="table table-dark" id="myTable">
+                            <tr id="product">
+                              <th>Medicine Name</th>
+                              <th>Medicine Price</th>
+                              <th>Pharmacy</th>
+                              <th>Total</th>
+                            </tr>
+                        </table>
+                        <div class="text-end">
+                          <h5 class="mx-3">Grand Total: Ksh<span id="grandTotal"></span></h5>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal" data-bs-dismiss="modal">Order Now</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                       </div>
                     </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Save changes</button>
-                      
-                    </div>
-                    
+                  </div>
+                </div>      
 
+                <!-- Order Now Modal -->
+                <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header alert alert-success">
+                        <h5 class="modal-title" id="exampleModalLabel">Successful order</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Order Received Successfully!</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
         </div>
       </div>
     </div>
