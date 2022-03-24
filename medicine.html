@@ -102,44 +102,66 @@
                       </div>
                         <div class="modal-body">
                           <form>
-                            <div class="form-group">
-                              <label for="message-text" class="col-form-label">Name</label>
-                              <input type="text" class="form-control" id="recipient-name" required>
+                            <div class="form-row">
+                              <div class="col-md-4 mb-3 w-100">
+                                <label for="validationServer01">First name</label>
+                                <input type="text" class="form-control is-valid w-100"  id="validationServer01" placeholder="First name" value="Mark" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 w-100">
+                                <label for="validationServer02">Last name</label>
+                                <input type="text" class="form-control is-valid w-100" id="validationServer02" placeholder="Last name" value="Otto" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                              </div>
+                              <div class="col-md-4 mb-3 w-100">
+                                <label for="validationServerUsername">Email Address</label>
+                                <div class="input-group">             
+                                  <input type="email" class="form-control is-invalid w-100" id="validationServerUsername" placeholder="email" aria-describedby="inputGroupPrepend3" required>
+                                  <div class="invalid-feedback">
+                                    Please enter valid email.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-row">
+                              <!-- disable placeholder -->
+                              <div class="form-group">
+                                <label for="disabledTextInput">Location</label>
+                                <input type="text" id="disabledTextInput" class="form-control w-100" placeholder="Kayole">
+                              </div>
                             </div>
                             <div class="form-group">
-                              <label for="message-text" class="col-form-label">Phone Number</label>
-                              <input type="number" class="form-control" id="recipient-name" required>
+                              <label for="exampleFormControlTextarea1">Message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                            <div class="form-group">
-                              <label for="recipient-name" class="col-form-label">Email</label>
-                              <input type="text" class="form-control" id="recipient-name" required>
-                            </div>
-                            <div class="form-group">
-                              <label for="message-text" class="col-form-label">Message:</label>
-                              <textarea class="form-control" id="message-text"></textarea>
+                            <br>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#successModal" data-bs-dismiss="modal">Order Now</button>
                             </div>
                           </form>
                         </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#successModal" data-bs-dismiss="modal">Order Now</button>
-                      </div>
                     </div>
                   </div>
                 </div>
 
-                       <!-- SuccessModal -->
+<!------------------------------- SuccessModal ------------------------------------------------------------->
+
                        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
-                            <div class="modal-header alert alert-success">
+                            <div class="modal-header alert alert-danger">
                               <h5 class="modal-title" id="exampleModalLabel"> Successful!</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" id="close" aria-label="Close"><script>location.reload();</script></button>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" id="close" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              <div class="modal-body">
-                                <form>
-                                  <p>Hi Loiss (: </p>
-                                  <p>Your Order has successfully been placed!</p>
+                              <div>
+                                <form">
+                                   <p>Hi Mark Karanja (: </p>
+                                   <p>Your Order has successfully been placed!</p>
                                 </form>
                               </div>
                               <div class="modal-footer">
