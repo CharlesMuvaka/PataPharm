@@ -12,6 +12,7 @@ width: 100%;
     height: 45px;
     text-align:center;
     border: none;
+    margin-bottom: 15px;
     background-size: 300% 100%;
     border-radius: 50px;
     moz-transition: all .4s ease-in-out;
@@ -35,15 +36,15 @@ width: 100%;
   .bn632-hover.bn26 {
     background-image: linear-gradient(
       to right,
-      #fac644,
-      #FFB703,
-      #f1a54d,
-      #FB8500
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
     );
-    box-shadow: 0 4px 6px 0 #FFB703;
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
   }
   .form-control{
-      margin-top: 18px;
+      margin-top: 17px;
       border-radius: 50px;
       height: 50px;
   }
