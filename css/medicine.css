@@ -84,3 +84,19 @@ table th{
 #other{
     margin-bottom: 15px;
 }
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+.btn-primary{
+    background: #023047;
+}
+.trans{
+    background: #023047;
+}

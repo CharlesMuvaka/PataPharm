@@ -1,7 +1,8 @@
 
 body{
     background-color: beige;
-}.logo{
+}
+.logo{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -110,4 +111,7 @@ body{
     border-radius: 5px;
     color: white;
     text-decoration: none;
+}
+.navbar-brand{
+    font-weight: 500;
 }
