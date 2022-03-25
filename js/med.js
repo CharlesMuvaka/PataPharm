@@ -4,6 +4,7 @@ var grandTotal = document.querySelector("#grandTotal");
 var cart1 =document.querySelector("#goodLife")
 var price = document.querySelector("#price");
 
+
 var cartAmount = 1000;
 
 cart1.onclick = function(){
@@ -24,7 +25,6 @@ cart1.onclick = function(){
             <td>${cartAmount}</td>
             <td>${chemist1}</td>
             <td>${total1}</td>
-            <td></td>
         </tr>
 
     `;
@@ -333,6 +333,27 @@ cart12.onclick = function(){
 
 
 
+var btnConfirm = document.querySelector("#confirm");
+
+
+
+btnConfirm.onclick = function(){
+    var firstName = document.querySelector("#firstName").value;
+    var lastName = document.querySelector("#lastName").value;
+    var outputName = document.querySelector("#outputName");
+    var form7 = document.querySelector("#form7");
+
+    outputName.innerHTML = firstName + " " + lastName;
+    
+
+}
+var oyole = document.querySelector("#oyole");
+
+oyole.onclick = function(){
+    var disabledTextInput = document.querySelector("#disabledTextInput");
+    disabledTextInput.value = localStorage.getItem("inputvalue");
+    
+}
 
 
 
